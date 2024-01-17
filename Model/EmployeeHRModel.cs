@@ -9,6 +9,7 @@ namespace solid.Model
 	public class EmployeeHRModel
 	{
 		public Int32 Id { get; set; }
+		public Int32 EmployeeId { get; set; }
 		public String Branch { get; set; }
 		public String Division { get; set; }
 		public String Department { get; set; }
