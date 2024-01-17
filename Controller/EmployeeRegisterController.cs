@@ -14,14 +14,14 @@ namespace solid.Controller
 			// some logic
 		}
 
-		public void EmployeeDetail(int id)
+		public EmployeeRegisterModel EmployeeDetail(int id)
 		{
-			// some logic
+			return new EmployeeRegisterModel();
 		}
 
-		public void EmployeeList()
+		public List<EmployeeRegisterModel> EmployeeList()
 		{
-			// some logic
+			return new List<EmployeeRegisterModel>();
 		}
 
 		public void EmployeeUpdate(EmployeeRegisterModel employeeRegisterModel)
