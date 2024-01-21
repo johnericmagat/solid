@@ -8,6 +8,6 @@ namespace solid.Helper
 {
 	public interface EmployeeRateHelper
 	{
-		public decimal Compute();
+		public decimal ComputeRate();
 	}
 }

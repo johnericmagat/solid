@@ -5,14 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using solid.Helper;
 
-namespace solid.Controller
+namespace solid.View
 {
-	public class EmployeeDailyRateController : EmployeeRateHelper
+	public class EmployeeDailyRateView : EmployeeRateHelper
 	{
 		decimal MonthlySalary;
 		int NoOfWorkDays;
 
-		public decimal Compute()
+		public decimal ComputeRate()
 		{
 			return MonthlySalary / NoOfWorkDays;
 		}
