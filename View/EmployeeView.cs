@@ -7,11 +7,19 @@ using System.Threading.Tasks;
 
 namespace solid.View
 {
-	public class EmployeeView : BankHelper
+	public class EmployeeView
 	{
+		private BankHelper bankHelper;
+
+		public EmployeeView(BankHelper bankHelper)
+		{
+			this.bankHelper = bankHelper;
+		}
+
 		public void LoanMoney()
 		{
 			// some logic
+			bankHelper.LoanMoney();
 		}
 	}
 }
